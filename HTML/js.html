@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Practice
+</body>
+<script>
+
+//GREATEST OF 4 NUMBERS
+
+    // let a=10;
+    // let b=2;
+    // let c=6;
+    // let d=20;
+    
+    // if(a>b){
+    //     if(a>c){
+    //         if(a>d){
+    //             console.log(a," is greatest");
+    //         }else{
+    //             console.log(d, 'is greatest');
+    //         }
+    //     }else{
+    //         if(c>d){
+    //             console.log(c," is greatest");
+    //         }else{
+    //             console.log(d," is greatest");
+    //         }
+    //     }
+    // }else{
+    //     if(b>c){
+    //         if(b>d){
+    //             console.log(b," is greatest");
+    //         }else{
+    //             console.log(d," is greatest");
+    //         }
+    //     }else{
+    //         if(c>d){
+    //             console.log(c," is greatest");
+    //         }else{
+    //             console.log(d," is greatest")
+    //         }
+    //     }
+    // }
+
+    // console.log((a>b)?(a>c)?(a>d)?a:d:(c>d)?c:d:(b>c)?(b>d)?b:d:(c>d)?c:d)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// FACTORIAL OF A NUMBER
+
+    // let num=7;
+    // let ans=1;
+    // let i=num;
+    // while(i>=1){
+    //     ans=ans*i;
+    //     i--;
+    // }
+    // console.log(ans);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// FIBONACCI SERIES
+
+    // let a=0;
+    // let b=1;
+    // let c;
+    // console.log(a)
+    // console.log(b)
+    // let i=1;
+    // while(i<=10){
+    //     c=a+b;
+    //     console.log(c);
+    //     i++;
+    //     a=b;
+    //     b=c;
+    // }
+    
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// GRADES ACCORDING TO MARKS
+
+// let marks=90;
+// if(marks>=90){
+//     console.log("A");
+// }
+// else{
+//     if(marks>=75){
+//         console.log("B");
+//     }
+//     else{
+//         if(marks>=55){
+//             console.log("C");
+//         }
+//         else{
+//             if(marks>=35){
+//                 console.log("D");
+//             }
+//             else{
+//                 console.log("E");
+//             }
+//         }
+//     }
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//print the second index number of the same value in an array
+
+let a=[1,2,3,4,5,6,7,2];
+let target=2;
+let count=0;
+let sec_occ;
+let i;
+for(i=0;i,a.length;i++){
+    if(a[i]===target){
+       count++;
+       if(count===2){
+        sec_occ=i;
+        break;
+       }
+    }
+}
+if(i>=a.length){            
+    console.log("Element not found");
+}
+else{
+    console.log(sec_occ);
+}
+
+
+</script>
+</html>

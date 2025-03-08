@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Application Form</legend>
+        <form>
+            <h4>Personal Particulars</h4>
+            <fieldset> <legend>Name : </legend>
+            <input type="text" size="20" name="name">
+            </fieldset>
+            <fieldset> <legend>Mother's Name : </legend>
+                <input type="text" size="20" name="mname">
+                </fieldset>
+                <fieldset> <legend>Gender : </legend>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender" checked>Female
+                    </fieldset> 
+                    <fieldset> <legend>Nationality : </legend>
+                        <input type="search" list="nation">
+                        <datalist id="nation">
+                            <option value="Indian"></option>
+                            <option value="Nepali"></option>
+                            <option value="Bhutani"></option>
+                            <option value="Others"></option>
+                        </datalist>
+                        </fieldset> 
+                        <fieldset> <legend>Domicile : </legend>
+                            <input type="search" list="dom">
+                            <datalist id="dom">
+                                <option value="Chhattisgarh"></option>
+                                <option value="Madhya Pradesh"></option>
+                                <option value="Andhra Pradesh"></option>
+                                <option value="Arunachal Pradesh"></option>
+                                <option value="Assam"></option>
+                                <option value="Bihar"></option>
+                                <option value="Goa"></option>
+                                <option value="Gujarat"></option>
+                                <option value="Haryana"></option>
+                                <option value="Himachal Pradesh"></option>
+                                <option value="Jharkhand"></option>
+                                <option value="Karnataka"></option>
+                                <option value="Kerala"></option>
+                                <option value="Maharashtra"></option>
+                                <option value="Manipur"></option>
+                                <option value="Meghalaya"></option>
+                                <option value="Mizoram"></option>
+                                <option value="Nagaland"></option>
+                                <option value="Odisha"></option>
+                                <option value="Punjab"></option>
+                                <option value="Rajasthan"></option>
+                                <option value="Sikkim"></option>
+                                <option value="Tamil Nadu"></option>
+                                <option value="Telangana"></option>
+                                <option value="Tripura"></option>
+                                <option value="Uttar Pradesh"></option>
+                                <option value="Uttrakhand"></option>
+                                <option value="West Bengal"></option>
+                            </datalist>
+                            </fieldset> 
+                            <fieldset> <legend>Date of Birth : </legend>
+                                <input type="date" name="dob">
+                                </fieldset> 
+        <h3>Military Records</h3>
+        <fieldset> <legend>Have you been discharged from Armed Forces? </legend>
+            <input type="radio" name="discharged">Yes<br>
+            <input type="radio" name="discharged" checked>No
+            </fieldset>            
+            <fieldset> <legend>Have you ever been enrolled in Armed Forces? </legend>
+                <input type="radio" name="enrolled">Yes<br>
+                <input type="radio" name="enrolled" checked>No
+                </fieldset>  
+                <fieldset> <legend>Have you attended any SSB before? </legend>
+                    <input type="radio" name="SSB" checked>Yes<br>
+                    <input type="radio" name="SSB">No
+                    </fieldset>   
+                    <fieldset> <legend>Service Choice </legend>
+                        <input type="radio" name="Service" checked>Indian Army<br>
+                        <input type="radio" name="Service">Indian Navy<br>
+                        <input type="radio" name="Service">Indian Air Force<br>
+                        <input type="radio" name="Service">Indian Coast Guard
+                        </fieldset>    
+        <h3>Communication Prticulars</h3>
+        <fieldset> <legend>Address : </legend>
+            <input type="text" size="40" name="address">
+            </fieldset>     
+            <fieldset> <legend>State : </legend>
+                <input type="search" list="state">
+                <datalist id="state">
+                    <option value="Chhattisgarh"></option>
+                    <option value="Madhya Pradesh"></option>
+                    <option value="Andhra Pradesh"></option>
+                    <option value="Arunachal Pradesh"></option>
+                    <option value="Assam"></option>
+                    <option value="Bihar"></option>
+                    <option value="Goa"></option>
+                    <option value="Gujarat"></option>
+                    <option value="Haryana"></option>
+                    <option value="Himachal Pradesh"></option>
+                    <option value="Jharkhand"></option>
+                    <option value="Karnataka"></option>
+                    <option value="Kerala"></option>
+                    <option value="Maharashtra"></option>
+                    <option value="Manipur"></option>
+                    <option value="Meghalaya"></option>
+                    <option value="Mizoram"></option>
+                    <option value="Nagaland"></option>
+                    <option value="Odisha"></option>
+                    <option value="Punjab"></option>
+                    <option value="Rajasthan"></option>
+                    <option value="Sikkim"></option>
+                    <option value="Tamil Nadu"></option>
+                    <option value="Telangana"></option>
+                    <option value="Tripura"></option>
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Uttrakhand"></option>
+                    <option value="West Bengal"></option>
+                </datalist>
+                </fieldset>  
+                <fieldset> <legend>Pincode : </legend>
+                    <input type="number" size="10" maxlength="6" minlength="6" name="pincode">
+                    </fieldset>          
+                    <fieldset> <legend>Mobile Number : </legend>
+                        <input type="number" size="20" maxlength="10" minlength="10" name="mobile">
+                        </fieldset>                  
+                        <fieldset> <legend>Email ID : </legend>
+                            <input type="email" size="30" placeholder="abc@xyz.com" name="email">
+                            </fieldset>
+        <h3>Miscellaneous</h3>
+        <fieldset> <legend>How did you come to know about this entry?</legend>
+            <input type="search" list="source">
+            <datalist id="source">
+                <option value="Online sources"></option>
+                <option value="Newspaper Adds"></option>
+                <option value="Teachers"></option>
+                <option value="Army personnel"></option>
+        </datalist>
+    </fieldset>
+    <fieldset> <legend>Do you know swimming? </legend>
+        <input type="radio" name="swimming" checked>No<br>
+        <input type="radio" name="swimming">Yes
+        </fieldset>  
+    <fieldset>
+        <legend>Hobbies</legend>
+        <input type="checkbox" name="hobby">Reading<br>
+            <input type="checkbox" name="hobby">Writing<br>
+            <input type="checkbox" name="hobby">Playing<br>
+            <input type="checkbox" name="hobby">Dancing<br>
+            <input type="checkbox" name="hobby">Singing<br>
+            <input type="checkbox" name="hobby">Cooking<br>
+            <input type="checkbox" name="hobby">Others <input type="text" size="20">
+    </fieldset>                         
+    <h3>Documents</h3>
+    <fieldset>
+        <legend>10<sup>th</sup> Paasing Certificate : </legend>
+        <input type="file">
+    </fieldset>
+    <fieldset>
+        <legend>12<sup>th</sup> Marksheet : </legend>
+        <input type="file">
+    </fieldset>
+    <fieldset>
+        <legend>Passport size photograph : </legend>
+        <input type="file">
+    </fieldset>
+    <fieldset>
+        <legend>Signature : </legend>
+        <input type="file">
+    </fieldset>
+    <br>
+    <br>
+    <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,11 @@
+dict={
+    101:"aaa",
+    102:"bbb",
+    "stud":{
+        104:"ddd",
+        105:"ccc"
+    }
+}
+print(dict)
+print(dict["stud"])
+print(dict[101])

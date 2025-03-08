@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+        Name : <input type="text" size="30" maxlength="20" minlength="2" placeholder="xyz" name="name">
+        <br>
+        <br>
+        Email : <input type="email" size="30" minlength="5" placeholder="abc@xyz.com" name="email" value="microsoft@gmail.com">
+        <br>
+        <br>
+        Password : <input type="password" size="10" maxlength="10" minlength="8" placeholder="abc#123" name="password" >
+        <br>
+        <br>
+        Telephone Number : <input type="tel" size="10" placeholder="+(123)45-678" name="telephone" >
+        <br>
+        <br>
+        Mobile Number : <input type="number" size="10" placeholder="0000000000" name="mobile">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender" checked>female
+        </fieldset>        
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Programming languages learnt</legend>
+            <input type="checkbox" name="hobby">Python<br>
+            <input type="checkbox" name="hobby">Java<br>
+            <input type="checkbox" name="hobby">HTML<br>
+            <input type="checkbox" name="hobby">CSS<br>
+            <input type="checkbox" name="hobby">JS<br>
+            <input type="checkbox" name="hobby">PHP
+        </fieldset>
+
+        <br>
+        <br>
+        Job Roles : <input type="search" list="job">
+        <datalist id="job">
+            <option value="Data Scientist"></option>
+            <option value="Data Analyst"></option>
+            <option value="DevOps Engineer"></option>
+            <option value="Frontend Developer"></option>
+            <option value="Backend Developer"></option>
+            <option value="AI Engineer"></option>
+        </datalist>
+        <br>
+        <br>
+        Resume : <input type="file">
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
